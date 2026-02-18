@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>My Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/120" class="profile">
+    <h1>jangan meletakkan harapan kepada orang yang kamu cintai kerana dia tidak semestinya mencintaimu, mungkin kamu hanya orang yang datang sementara dihidupnya </h1>
+    <p>Contact me </p>
+    
+    <a href="#" class="link">
+  <img src="WhatsApp.png">
+  <span>WhatsApp</span>
+</a>
+
+    <!-- WhatsApp (mirul) -->
+    <a class="btn whatsapp" href="https://wa.me/601173973726" target="_blank">
+      WhatsApp
+    </a>
+
+    <!-- Telegram (myosz) -->
+    <a class="btn telegram" href="https://t.me/my0sz" target="_blank">
+      Telegram
+    </a>
+
+    <!-- Social Media -->
+    <a class="btn social" href="https://instagram.com/myrulfah" target="_blank">
+      Instagram
+    </a>
+
+    <a class="btn social" href="https://tiktok.com/@myrulz0k" target="_blank">
+      TikTok
+    </a>
+
+    <!-- Affiliate -->
+    <a class="btn affiliate" href="https://link-affiliate-anda.com" target="_blank">
+      Affiliate / Support
+    </a>
+  </div>
+
+</body>
+</html>

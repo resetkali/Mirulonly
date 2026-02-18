@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url('bg.jpg');  /* gambar background */
+  background-size: cover;                    /* penuh layar */
+  background-position: center;               /* gambar di tengah */
+  background-repeat: no-repeat;              /* jangan ulang gambar */
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* Profile image */
+.profile {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Heading & paragraph */
+h1 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+p {
+  opacity: 0.8;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+/* Card styling */
+.card {
+  display: block;
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  background: rgba(255,255,255,0.1);
+}
+
+/* Card image */
+.card-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Card text */
+.card h3 {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Warna platform */
+.card.whatsapp { background: #25D366; }
+.card.telegram { background: #0088cc; }
+.card.social { background: #E1306C; } /* Instagram / TikTok */
+
+/* Responsive mobile */
+@media screen and (max-width: 500px) {
+  .card-img { width: 45px; height: 45px; }
+  .card h3 { font-size: 15px; }
+  .card p { font-size: 13px; }
+  h1 { font-size: 14px; }
+  p { font-size: 13px; }
+}
